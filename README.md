@@ -38,4 +38,4 @@ xpm install --global @xpack-dev-tools/meson-build@latest --verbose
 - Extract to the desired destination and run Eclipse.exe
 
 ## Demo Video
-![Video](Eclipse_Install_Windows.mp4)
+https://github.com/Reynlab-Lab-On-Wheels/Eclipse-For-Embedded/blob/main/Eclipse_Install_Windows.mp4?raw=true
