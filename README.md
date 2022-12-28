@@ -1,4 +1,4 @@
-# Eclipse For Embedded
+# Installing Eclipse For Embedded
 
 ## Step 1 download java 
 - Download from https://github.com/Reynlab-Lab-On-Wheels/Eclipse-For-Embedded/raw/main/node-v18.12.1-x64.msi
