@@ -36,3 +36,6 @@ xpm install --global @xpack-dev-tools/meson-build@latest --verbose
 ## Step 5 Install Eclipse
 - Download Eclipse From https://ftp.yz.yamagata-u.ac.jp/pub/eclipse/technology/epp/downloads/release/2022-12/R/eclipse-embedcpp-2022-12-R-win32-x86_64.zip
 - Extract to the desired destination and run Eclipse.exe
+
+## Demo Video
+![Video](Eclipse_Install_Windows.mp4)
