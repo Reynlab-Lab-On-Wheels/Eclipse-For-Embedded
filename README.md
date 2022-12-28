@@ -1,7 +1,7 @@
 # Eclipse For Embedded
 
 ## Step 1 download java 
-- Download from 
+- Download from https://github.com/Reynlab-Lab-On-Wheels/Eclipse-For-Embedded/raw/main/node-v18.12.1-x64.msi
 
 ## Step 2 Create a folder named Oracle and copy java
 - Open my computer.
@@ -18,5 +18,18 @@ setx Path "%APPDATA%\Oracle\jdk-19.0.1\bin;%Path%"
 ```
 - verify by running the ```java --version``` cmd
 ### Step 4 Install Node 
-- Download and install node js 
--
+- Download and install node js https://github.com/Reynlab-Lab-On-Wheels/Eclipse-For-Embedded/raw/main/node-v18.12.1-x64.msi
+- Run run the follwing cmds ```npm install --global xpm@latest```
+- Install these toolchains one by one using the cmds.
+```
+xpm install --global @xpack-dev-tools/windows-build-tools@latest
+
+xpm install --global @xpack-dev-tools/arm-none-eabi-gcc@latest --verbose
+xpm install --global @xpack-dev-tools/qemu-arm@latest --verbose
+xpm install --global @xpack-dev-tools/openocd@latest --verbose
+xpm install --global @xpack-dev-tools/riscv-none-embed-gcc@latest --verbose
+xpm install --global @xpack-dev-tools/cmake@latest --verbose
+xpm install --global @xpack-dev-tools/ninja-build@latest --verbose
+xpm install --global @xpack-dev-tools/meson-build@latest --verbose
+```
+
