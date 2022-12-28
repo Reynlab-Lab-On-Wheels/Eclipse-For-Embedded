@@ -19,3 +19,4 @@ setx Path "%APPDATA%\Oracle\jdk-19.0.1\bin;%Path%"
 - verify by running the ```java --version``` cmd
 ### Step 4 Install Node 
 - Download and install node js 
+-
